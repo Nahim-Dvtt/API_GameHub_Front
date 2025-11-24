@@ -1,7 +1,7 @@
 (() => {
-  const SESSION_API = 'https://api-gamehub-front.onrender.com/api/sessions';
-  const GAME_API = 'https://api-gamehub-front.onrender.com/api/games';
-  const PLAYER_API = 'https://api-gamehub-front.onrender.com/api/players';
+  const SESSION_API = 'https://api-gamehub-back.onrender.com/api/sessions';
+  const GAME_API = 'https://api-gamehub-back.onrender.com/api/games';
+  const PLAYER_API = 'https://api-gamehub-back.onrender.com/api/players';
 
   // Charger les sessions avec spinner et gestion d'erreur
   async function loadSessions() {
