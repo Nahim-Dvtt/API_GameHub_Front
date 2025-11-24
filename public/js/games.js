@@ -1,4 +1,4 @@
-const GAME_API = 'http://localhost:4000/api/games';
+const GAME_API = 'https://api-gamehub-front.onrender.com/api/games';
 
 document.addEventListener('DOMContentLoaded', () => {
   if (!document.getElementById('games')) return;
