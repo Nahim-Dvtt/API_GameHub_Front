@@ -1,5 +1,5 @@
 (() => {
-  const PLAYER_API = 'https://api-gamehub-front.onrender.com/api/players';
+  const PLAYER_API = 'https://api-gamehub-back.onrender.com/api/players';
 
   async function loadPlayers() {
     const container = document.getElementById('players');
