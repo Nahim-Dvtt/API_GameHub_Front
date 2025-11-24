@@ -1,4 +1,4 @@
-const API_URL = 'https://api-gamehub-front.onrender.com/api/auth';
+const API_URL = 'https://api-gamehub-back.onrender.com/api/auth';
 
 document.addEventListener('DOMContentLoaded', () => {
   const loginForm = document.getElementById('loginForm');
